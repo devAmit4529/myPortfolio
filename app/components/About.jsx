@@ -54,10 +54,10 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-Ovo">
-            I am an experienced Frontend developer with over 3.5 years of
-            professional expertise in the field. Throughout my small career, I
-            have had the privilage of collaborating with organisation and some
-            wonderful clients, contributing to their success and growth.
+            I’m a Frontend Developer with 3.5+ years of experience building
+            sleek, high-performing web apps. Along the way, I’ve had the joy of
+            working with some amazing teams and clients, turning challenges into
+            clean, user-friendly solutions.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
@@ -67,11 +67,11 @@ const About = ({ isDarkMode }) => {
           >
             {infoList.map(({ icon, iconDark, title, description, index }) => (
               <motion.li
-                whileInView={{ scale: 1.05 }}
+                whileHover={{ scale: 1.05 }}
                 className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer 
                   hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black 
                   dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
-                key={index}
+                key={title}
               >
                 <Image
                   src={isDarkMode ? iconDark : icon}
@@ -92,13 +92,14 @@ const About = ({ isDarkMode }) => {
           </h4>
           <ul className="flex items-center gap-3 sm:gap-5">
             {toolsData.map((tool, index) => (
-              <li
+              <motion.li
+                whileHover={{ scale: 1.1 }}
                 className="flex items-center justify-center w-12 sm:w-14 aspect-square 
                   border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
                 key={index}
               >
                 <Image src={tool} alt="tool" className="w-5 sm:w-7" />
-              </li>
+              </motion.li>
             ))}
           </ul>
         </motion.div>

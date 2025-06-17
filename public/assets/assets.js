@@ -7,6 +7,7 @@ import project_icon from "./project-icon.png";
 import project_icon_dark from "./project-icon-dark.png";
 import vscode from "./vscode.png";
 import firebase from "./firebase.png";
+import nodejs from "./nodejs.png";
 import figma from "./figma.png";
 import git from "./git.png";
 import mongodb from "./mongodb.png";
@@ -29,6 +30,7 @@ import close_black from "./close-black.png";
 import close_white from "./close-white.png";
 import web_icon from "./web-icon.png";
 import mobile_icon from "./mobile-icon.png";
+import performance from "./performance.png";
 import ui_icon from "./ui-icon.png";
 import graphics_icon from "./graphics-icon.png";
 import right_arrow from "./right-arrow.png";
@@ -46,6 +48,7 @@ export const assets = {
   project_icon_dark,
   vscode,
   firebase,
+  nodejs,
   figma,
   git,
   mongodb,
@@ -68,6 +71,7 @@ export const assets = {
   close_white,
   web_icon,
   mobile_icon,
+  performance,
   ui_icon,
   graphics_icon,
   right_arrow,
@@ -78,52 +82,59 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
+    title: "MERN stack",
+    description: "E-commerce grocery store",
     bgImage: "/assets/public/work-1.png",
+    projectUrl: "https://mern-grocery-store-frontend.vercel.app/",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
+    title: "Mobile App",
+    description: "Quiz App",
     bgImage: "/assets/public/work-2.png",
+    projectUrl: "",
   },
   {
-    title: "Photography site",
-    description: "Web Design",
-    bgImage: "/assets/public/work-3.png",
+    title: "Browser Extension",
+    description: "Crypro wallet extension",
+    bgImage: "/assets/public/work-walletext.png",
+    projectUrl: "",
   },
   {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/assets/public/work-4.png",
+    title: "Various Admins/Dashboards",
+    description: "Dashboard with data visualisations and graphs",
+    bgImage: "/assets/public/admin-dashboard.png",
+    projectUrl: "",
   },
 ];
 
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
-    link: "",
-  },
-  {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
+
+    title: "Full Stack Web Applications",
     description:
-      "Mobile app development involves creating software for mobile devices...",
+      "Creating end-to-end web apps with integrated backend APIs, authentication, and modern frontend technologies.",
     link: "",
   },
   {
     icon: assets.ui_icon,
-    title: "UI/UX design",
+    title: "Frontend Engineering",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
+      "Developing scalable and maintainable UI components with React and Next.js, focusing on performance and accessibility.",
     link: "",
   },
   {
     icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
+    title: "Web design",
+    description:
+      "Crafting intuitive and aesthetically pleasing layouts that align with brand identity and user expectations.",
+    link: "",
+  },
+  {
+    icon: assets.performance,
+    title: "Performance Optimization",
+    description:
+      "Improving website speed, accessibility, and Core Web Vitals through best practices in frontend coding and asset management.",
     link: "",
   },
 ];
@@ -139,19 +150,19 @@ export const infoList = [
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Science",
+    description: "Masters in Computer Applications",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 5 projects",
+    description: "Built more than 10 projects",
   },
 ];
 
 export const toolsData = [
   assets.vscode,
-  assets.firebase,
+  assets.nodejs,
   assets.mongodb,
   assets.figma,
   assets.git,
