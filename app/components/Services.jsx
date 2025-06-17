@@ -28,7 +28,7 @@ const Services = ({ isDarkMode }) => {
       >
         My Services
       </motion.h2>
-      <motion.p
+      {/* <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.7, duration: 0.5 }}
@@ -36,7 +36,7 @@ const Services = ({ isDarkMode }) => {
       >
         I am a frontend developer from India. With 3.5 years of hands on
         experience in a blockchain company.
-      </motion.p>
+      </motion.p> */}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

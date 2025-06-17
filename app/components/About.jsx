@@ -54,10 +54,16 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-Ovo">
-            I’m a Frontend Developer with 3.5+ years of experience building
-            sleek, high-performing web apps. Along the way, I’ve had the joy of
-            working with some amazing teams and clients, turning challenges into
-            clean, user-friendly solutions.
+            🚀 I'm a MERN Stack Frontend Developer from Charkhi Dadri, Haryana,
+            India, with 3.5 years of hands-on experience building dynamic and
+            high-performance web applications—particularly in the blockchain
+            domain. I hold a Master’s degree in Computer Applications with an
+            8.1 CGPA, and my passion lies in turning complex UI challenges into
+            clean, scalable, and pixel-perfect solutions. My core expertise lies
+            in React, Next.js, JavaScript, and TypeScript—focused on building
+            fast, responsive, and user-friendly interfaces that don’t just work
+            well, but feel great to use. I’m always eager to learn, collaborate,
+            and deliver top-notch digital experiences.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}

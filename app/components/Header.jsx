@@ -43,12 +43,12 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo"
       >
-        🚀 I'm a MERN Stack Frontend Developer based in Chandigarh, India, with
-        3.5 years of hands-on experience crafting dynamic, high-performance web
-        applications—primarily in the blockchain domain. I specialize in
-        building sleek, responsive user interfaces using React and Next.js,
-        bringing designs to life with pixel-perfect precision and clean,
-        maintainable code.
+        🚀 Looking for a skilled Frontend Engineer who can turn your vision into
+        a stunning, high-performance web experience?
+        <br />
+        You’re in the right place. I specialize in JavaScript, TypeScript,
+        React, and Next.js, with 4 years of experience turning designs into
+        pixel-perfect, high-performance interfaces.
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
